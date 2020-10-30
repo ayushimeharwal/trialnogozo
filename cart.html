@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>mycart</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="newcss.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="store.js" async></script>
+    </head>
+    <body>
+        <div class="navbar">
+            <a href="file:///C:/Users/Manoj%20Kumar/Desktop/ayushi/internship%20og/index.html"><img src="C:\Users\Manoj Kumar\Documents\NetBeansProjects\nogozo\public_html\images\nogozo.jpeg" alt="nogozo"></a>
+            <div class="nav-icon">
+                <a href="file:///C:/Users/Manoj%20Kumar/Desktop/ayushi/internship%20og/login.html"><i class="fa fa-user" aria-hidden="true"></i></a>
+            </div>
+            <div class="fieldContainer">
+            <i class="fa fa-search icon"></i>
+            <input class="field" type="text" placeholder="Search Items" name="Search Items" />
+            </div>
+        </div>
+        <h2  style="text-align:center; color:#20639b; font-size:30px;"><b>MY CART</b></h2>
+        <div class="small-container cart-page">
+            <table class="cart-items">
+                <tr>
+                    <th>Product</th>
+                    <th>Quantity</th>
+                    <th>Subtotal</th>
+                </tr>
+                <tr class="cart-row">
+                    <td>
+                        <div class="cart-info">
+                            <img src="https://onedaycart.com/odcb/wp-content/uploads/2016/11/1-composition-with-variety-of-grocery-products-t-monticello.jpg">
+                            <div>
+                                <p>Groceries And Essentials</p>
+                                <small>Price:$20.00</small>
+                                <br>
+                                <button type="button" class="btn btn-danger">Remove</button>
+                            </div>
+                        </div>
+                    </td>
+                    <td><input type="number" value="1" class="cart-quantity-input"></td>
+                    <td class="cart-price"> $20.00</td>
+                </tr>
+                 <tr class="cart-row">
+                    <td>
+                        <div class="cart-info">
+                            <img src="https://cdn-b.medlife.com/2018/01/fruits-and-vegetables-to-consume-in-winter.png">
+                            <div>
+                                <p>Fruits And Vegetables</p>
+                                <small>Price: $20.00</small>
+                                <br>
+                               <button type="button" class="btn btn-danger">Remove</button>
+                            </div>
+                        </div>
+                    </td>
+                    <td><input type="number" value="1" class="cart-quantity-input"></td>
+                    <td  class="cart-price">$20.00</td>
+                </tr>
+                <tr class="cart-row">
+                    <td>
+                        <div class="cart-info">
+                            <img src="https://youngwomenshealth.org/wp-content/uploads/2014/02/fast-food.jpg">
+                            <div>
+                                <p>Food Outlets And Restaurants</p>
+                                <small>Price: $20.00</small>
+                                <br>
+                                <button type="button" class="btn btn-danger">Remove</button>
+                            </div>
+                        </div>
+                    </td>
+                    <td><input type="number" value="1" class="cart-quantity-input"></td>
+                    <td>$20.00</td>
+                </tr>
+            </table>
+            <div class="total-price">
+                <table class="total">
+                    <tr>
+                        <td>Subtotal</td>
+                        <td>$60.00</td>
+                    </tr>
+                    <tr>
+                        <td>Tax</td>
+                        <td>$15.00</td>
+                    </tr>
+                    <tr>
+                        <td>Total</td>
+                        <td class="subtotal">$75.00</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="continue-shop">
+            <a href="file:///C:/Users/Manoj%20Kumar/Desktop/ayushi/internship%20og/cart.html"><button type="button" class="btn btn-primary">Continue Shopping</button></a>
+        </div>
+    </body>
+</html>
